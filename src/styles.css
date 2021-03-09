@@ -1,0 +1,39 @@
+:root {
+  --link-color: #f1d5b8;
+  --secondary-link-color: #8f3626;
+}
+
+body {
+  background-color: #2b2b2b !important;
+  color: white !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-menu {
+  background-color: var(--link-color);
+}
+
+.main-menu a {
+  color: #2b2b2b;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+.main-img div {
+  max-width: 60%;
+}
+
+.crs-about {
+  max-width: 80%;
+}
+
+.mail-to {
+  font-size: 24px;
+  color: var(--link-color);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.mail-to:hover {
+  color: #e0a315;
+}
