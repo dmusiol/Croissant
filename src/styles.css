@@ -15,12 +15,8 @@ body {
 
 .main-menu a {
   color: #2b2b2b;
-  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
-}
-.main-img div {
-  max-width: 60%;
 }
 
 .crs-about {
@@ -36,4 +32,14 @@ body {
 
 .mail-to:hover {
   color: #e0a315;
+}
+
+@media (max-width: 767px) {
+  .main-img img {
+    width: 80%;
+  }
+
+  .crs-about {
+    max-width: 100%;
+  }
 }

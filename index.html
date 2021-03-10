@@ -10,14 +10,38 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
     <title>Homepage</title>
   </head>
   <body>
-    <div class="main-menu d-flex justify-content-end">
-      <a href="/contact.html" class="p-3">Order Croissant</a>
-      <a href="/photo.html" class="p-3">Our Croissants</a>
-    </div>
-    <h1 class="text-center mt-5">🥐 Croissant</h1>
+    <nav class="navbar navbar-expand-md navbar-light main-menu">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-3 fw-bold" href="#">❖CROISSANT</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a href="/" class="nav-link p-3 active" aria-current="page">Home</a>
+            <a href="/photo.html" class="nav-link p-3">Croissants</a>
+            <a href="/contact.html" class="nav-link p-3">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <h1 class="text-center mt-4">🥐 Croissant</h1>
     <p class="text-center crs-about mx-auto d-block p-5">
       Croissant is a buttery, flaky, viennoiserie pastry of Austrian origin,
       named for its historical crescent shape. Croissants and other viennoiserie
@@ -26,11 +50,11 @@
       thin sheet, in a technique called laminating. The process results in a
       layered, flaky texture, similar to a puff pastry.
     </p>
-    <div class="main-imgs">
+    <div class="main-img mb-5">
       <img
-        src="/images/big-main-croissant.jpg"
+        src="/images/big-main-croissant.png"
         alt="Main Croissant"
-        class="img-fluid mx-auto p-3 d-block bg-white rounded"
+        class="img-fluid mx-auto p-2 d-block bg-white"
       />
     </div>
   </body>
